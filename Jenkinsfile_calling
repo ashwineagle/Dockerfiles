@@ -1,4 +1,4 @@
-node {
+###node {
     stage('Loading Jenkins file') {
     if (env.BRANCH_NAME == 'master') {
                echo 'Pulling Jenkins file for branch :' + env.BRANCH_NAME
